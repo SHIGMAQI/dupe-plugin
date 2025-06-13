@@ -28,18 +28,6 @@ Currently, the cooldown duration is hardcoded to 5 seconds inside the plugin sou
 2. Modify the cooldown duration in milliseconds (`5000` for 5 seconds) to your desired value.
 3. Rebuild and redeploy the plugin.
 
-## Limitations
-- The plugin does not yet support configurable cooldowns or permissions.
-- Duplication only works on the item held in the main hand.
-- Cooldown data is stored in-memory and resets on server restart.
-- No admin commands or dupe tracking currently implemented.
-
-## Planned Features
-- Config file support to customize cooldown duration.
-- Permission nodes to restrict usage.
-- Dupe statistics tracking and admin commands.
-- Configurable messages for localization.
-
 ## Development & Contribution
 This plugin is open source and developed by [SHIGMAQI](https://github.com/SHIGMAQI).  
 Feel free to fork, suggest features, or submit pull requests.
